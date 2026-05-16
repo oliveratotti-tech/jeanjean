@@ -28,7 +28,8 @@ export function Hero() {
                 alt="Colégio Jean Piaget"
                 width={800}
                 height={300}
-                className="h-52 sm:h-64 md:h-72 lg:h-80 xl:h-96 w-auto max-w-full"
+                className="h-40 sm:h-48 md:h-56 lg:h-60 xl:h-64 w-auto max-w-full object-contain"
+                style={{ marginTop: '-1rem', marginBottom: '-1rem' }}
                 priority
               />
             </div>
